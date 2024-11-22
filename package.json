@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Landing page for Indonesia Premium Cacao",
   "scripts": {
-    "sass": "sass src/styles/scss/main.scss public/styles/css/main.css",
-    "sass:watch": "sass --watch src/styles/scss/main.scss public/styles/css/main.css",
-    "copy:html": "cp src/index.html public/",
-    "copy:assets": "cp -r src/assets public/",
+    "sass": "sass src/styles/scss/main.scss docs/styles/css/main.css",
+    "sass:watch": "sass --watch src/styles/scss/main.scss docs/styles/css/main.css",
+    "copy:html": "cp src/index.html docs/",
+    "copy:assets": "cp -r src/assets docs/",
     "build": "npm run sass && npm run copy:html && npm run copy:assets",
     "dev": "npm run sass:watch"
   },
